@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - MOODLE_403_STABLE
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
