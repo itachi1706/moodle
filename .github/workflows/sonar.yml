@@ -19,3 +19,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_RUNNER_OPTS: "-Xmx8192m -XX:MaxPermSize=512m -XX:ReservedCodeCacheSize=128m"
